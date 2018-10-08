@@ -1,0 +1,10 @@
+h1 {
+  text-transform: uppercase;
+}
+h1, p {
+  color: white;
+}
+.placeholder {
+  width: 10px;
+  display: inline-block;
+}
