@@ -1,18 +1,22 @@
-h1 {
-  text-transform: uppercase;
-}
-h1, p {
-  color: white;
-}
+/*
 .placeholder {
   width: 20px;
   display: inline-block;
-}
+} */
 .topnav {
-    overflow: auto;
-}
 
+}
 .topnav a {
+overflow: auto;
+color: white;
+}
+.topnav a:hover{
+  color:black;
+  background-color:white;
+}
+.topnav span {
+  width: 20px;
+  display: inline-block;
 
 }
 
@@ -21,5 +25,11 @@ h1, p {
     float: none;
     display: block;
     width: 100%;
+    align:center;
+  }
+  .topnav span {
+    width: 0;
+
+
   }
 }
