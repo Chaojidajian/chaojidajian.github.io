@@ -8,3 +8,18 @@ h1, p {
   width: 20px;
   display: inline-block;
 }
+.topnav {
+    overflow: auto;
+}
+
+.topnav a {
+
+}
+
+@media screen and (max-width: 750px) {
+  .topnav a {
+    float: none;
+    display: block;
+    width: 100%;
+  }
+}
